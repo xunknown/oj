@@ -1,7 +1,13 @@
-/**
- * @author      : alpha (alpha@mascot)
- * @file        : dp-triangle-path
- * @created     : Wednesday Oct 16, 2019 01:31:39 HKT
+/*
+ * 题目：
+ * 如图一个数塔，从顶部出发在每一个节点可以选择向左或者向右走，一直走到最底层，找出一条路径，使得路径上的数字之和最大.
+ *		7
+ *	      3   8
+ *	    8   1   0
+ *	  2   7   4   4
+ *	4   5   2   6   5
+ * https://blog.csdn.net/sinat_38052999/article/details/68938618
+ * https://blog.csdn.net/theonegis/article/details/45801201
  */
 
 #include <stdio.h>
