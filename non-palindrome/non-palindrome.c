@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 		printf("NO\n");
 		return 0;
 	}
-	printf("%d %d\n", n, p);
+	// printf("%d %d\n", n, p);
 
 	if (n < 1 || n > MAX_N || p < 1 || p > MAX_P) {
 		printf("NO\n");
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 		printf("NO\n");
 		return 0;
 	}
-	printf("%s\n\n", start);
+	// printf("%s\n\n", start);
 
 	if (strlen(start) != n) {
 		printf("NO\n");
@@ -69,9 +69,10 @@ int main(int argc, char *argv[])
 	}
 
 	while (next(start, n, p) != NULL) {
-		printf("%s\n", start);
+		// printf("%s\n", start);
 		if (!is_palindrome(start, n)) {
-			printf("find: %s\n", start);
+			printf("%s\n", start);
+			return 0;
 		}
 	}
 
