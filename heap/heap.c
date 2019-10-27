@@ -163,7 +163,7 @@ int heap_count(const struct heap_s *heap)
 
 int test_cmp(const void *a, const void *b)
 {
-	return *(int *)a - *(int *)b;
+	return *(int *)b - *(int *)a;
 }
 
 int main(int argc, char *argv[])
